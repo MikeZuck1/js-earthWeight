@@ -2,7 +2,7 @@
 import './style.css';
 
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+appDiv.innerHTML;
 
 const calulateWeight = (earthWeight, planet) => {
   switch (planet) {
@@ -21,4 +21,4 @@ const calulateWeight = (earthWeight, planet) => {
   }
 };  
 
-console.log(calulateWeight(100, 'Venus'));  
+console.log(calulateWeight(100, 'Venus')); // display and call the function "calulateWeight" 
